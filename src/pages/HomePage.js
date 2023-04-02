@@ -86,7 +86,7 @@ const HomePage = () => {
             justifyContent="space-around"
             flexWrap="wrap"
           >
-            {books &&
+            {books.length &&
               books.map((book) => (
                 <Card
                   key={book.id}
